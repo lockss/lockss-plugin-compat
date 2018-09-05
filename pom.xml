@@ -43,11 +43,11 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   </parent>
 
   <groupId>org.lockss.laaws</groupId>
-  <artifactId>plugin-compat</artifactId>
+  <artifactId>lockss-plugin-compat</artifactId>
   <version>1.2.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>plugin-compat</name>
+  <name>lockss-plugin-compat</name>
   <description>Compatibility layer for legacy LOCKSS plugins to build and run against lockss-core</description>
 
   <properties>
