@@ -72,6 +72,14 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
     <dependency>
       <groupId>org.lockss</groupId>
+      <artifactId>lockss-core-tests-bundle</artifactId>
+      <version>${lockss.core.bundleVersion}</version>
+      <type>pom</type>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.lockss</groupId>
       <artifactId>lockss-junit4-bundle</artifactId>
       <version>${lockss.junit4.bundleVersion}</version>
       <type>pom</type>
