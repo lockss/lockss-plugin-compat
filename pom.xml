@@ -38,7 +38,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <parent>
     <groupId>org.lockss</groupId>
     <artifactId>lockss-parent-pom</artifactId>
-    <version>1.9.0-SNAPSHOT</version>
+    <version>1.11.0-SNAPSHOT</version>
     <relativePath />
   </parent>
 
@@ -66,14 +66,14 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <dependency>
       <groupId>org.lockss</groupId>
       <artifactId>lockss-core-bundle</artifactId>
-      <version>${lockss.core.bundleVersion}</version>
+      <version>${version.lockss.lockss-core-bundle}</version>
       <type>pom</type>
     </dependency>
 
     <dependency>
       <groupId>org.lockss</groupId>
       <artifactId>lockss-core-tests-bundle</artifactId>
-      <version>${lockss.core.bundleVersion}</version>
+      <version>${version.lockss.lockss-core-bundle}</version>
 
       <!-- Remove when old plugins jar dependency is removed from
            lockss-core -->
@@ -86,13 +86,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       </exclusions>
 
       <type>pom</type>
-      <scope>test</scope>
     </dependency>
 
     <dependency>
       <groupId>org.lockss</groupId>
       <artifactId>lockss-junit4-bundle</artifactId>
-      <version>${lockss.junit4.bundleVersion}</version>
+      <version>${version.lockss.lockss-junit4-bundle}</version>
       <type>pom</type>
       <scope>test</scope>
     </dependency>
