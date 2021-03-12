@@ -84,3 +84,4 @@ logs/
 /tmplib
 
 /TAGS
+/.surefire-*
