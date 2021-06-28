@@ -1,12 +1,87 @@
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+*.pyo
 
-# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
-!/.mvn/wrapper/maven-wrapper.jar
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+
+# Old Versioning CVS/SVN file #
+######################
+.svn/
+/CVS/*
+*/CVS/*
+.cvsignore
+*/.cvsignore
+
+
+# Eclipse #
+######################
+.metadata
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.project
+.externalToolBuilders/
+*.launch
+*.pydevproject
+.cproject
+.classpath
+.factorypath
+.buildpath
+.target
+.texlipse
+.springBeans
+
+# Common editor backup file patterns #
+######################
+*~
+\#*
+.#*
+
+# Preliminary .gitignore
+######################
+
+generated/*
+target/
+logs/
+
+
+/.classpath
+/.depend
+/.project
+/.pydevproject
+/.settings
+
+/rpt-test-err
+/rpt-test-out
+/tempbuild
+/tmplib
+
+/TAGS
+/.surefire-*
