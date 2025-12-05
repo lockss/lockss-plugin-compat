@@ -31,7 +31,9 @@ package org.lockss.metadata;
 import org.lockss.config.Configuration;
 
 /**
- * Constants from old MetadataManager class that are referenced by plugins
+ * Constants from old MetadataManager class that are referenced by plugins.
+ * This class shadows the full MetadataManager from lockss-core for backwards
+ * compatibility with old plugins.
  */
 public class MetadataManager {
 
@@ -51,5 +53,11 @@ public class MetadataManager {
    * <code>false</code> to disable, <code>true</code> to enable.
    */
   public static final boolean DEFAULT_INDEXING_ENABLED = false;
+
+  /** Status table name for metadata status */
+  public static final String METADATA_STATUS_TABLE_NAME = "MetadataStatusTable";
+
+  /** Feature name for access URL */
+  public static final String ACCESS_URL_FEATURE = "Access";
 
 }
