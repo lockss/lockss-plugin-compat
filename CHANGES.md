@@ -1,6 +1,8 @@
 # `lockss-plugin-compat` Release Notes
 
-## Changes since 1.1.0
+## 1.7.0 (LOCKSS 2.0.91-beta2)
+
+*   Version bump only.
 
 ## 1.1.0
 
